@@ -1,0 +1,7 @@
+﻿/*Section 1 - intro to bootstrap*/
+/*can override bootstrap styles*/
+.btn-danger {
+    color: orange;
+    background-color: black;
+}
+/*Section 2 - intro to components*/
