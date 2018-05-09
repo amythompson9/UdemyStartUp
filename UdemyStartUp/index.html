@@ -1,12 +1,14 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <link href="site.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link href="site.css" rel="stylesheet" />
+
+
 </head>
 <body>
     <!--Section 1 intro to boostrap-->
@@ -63,10 +65,13 @@
             <button type="submit" class="btn btn-primary mb-2">Submit</button>
         </form>
     </div>
-    <!--Section 3 - nav bar-->
-    <nav class="navbar navbar-default">
+    <!--Section 3 - nav bar - might not work as well - demo is outdated-->
+    <!--<nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <a href="#" class="navbar-brand">Koffee</a>
             </div>
             <div class="collapse navbar-collape" id="bs-example-navbar-collapse-1">
@@ -80,10 +85,9 @@
                 </ul>
             </div>
         </div>
-    </nav>
-
+    </nav>-->
     <!--default navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -117,6 +121,66 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
-    </nav>
+    </nav>-->
+    <!--SECTION 4 - Grid System-->
+    <!--<div class="container">
+        <div class="row">
+            <div class="col-lg-2 pink">COL LG 2</div>
+            <div class="col-lg-8 pink">COL LG 8</div>
+            <div class="col-lg-2 pink">COL LG 2</div>
+        </div>
+    </div>-->
+    <!--Section 5 - More Grids, nested columns-->
+    <!--4 Sizes - LG/MD/SM/XS
+        specify ratios for different sizes
+        larger screens, laptops, tablets, mobile
+        -->
+    <!--<div class="row">
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1</div>
+    </div>-->
+    <!--different column sizes and making them responsive-->
+    <!--<div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE</div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE</div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE</div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE</div>
+        </div>
+    </div>-->
+    <!--nested columns-->
+    <!--<div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">
+                <div class="row">
+                    <div class="col-lg-6">First Half</div>
+                    <div class="col-lg-6">Other Half</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE</div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">TOUR DATE</div>
+            <div class="col-md-3 col-sm-6 col-xs-12 pink">
+                <div class="row">
+                    <div class="col-lg-2">1</div>
+                    <div class="col-lg-2">1</div>
+                    <div class="col-lg-2">1</div>
+                    <div class="col-lg-2">1</div>
+                    <div class="col-lg-2">1</div>
+                    <div class="col-lg-2">1</div>
+                    <div class="col-lg-2">1</div>
+                </div>
+            </div>
+        </div>
+    </div>-->
 </body>
 </html>

@@ -1,7 +1,11 @@
 ﻿/*Section 1 - intro to bootstrap*/
 /*can override bootstrap styles*/
-.btn-danger {
+/*.btn-danger {
     color: orange;
     background-color: black;
-}
-/*Section 2 - intro to components*/
+}*/
+/*Section 4 - grid system*/
+/*.pink {
+    background: pink;
+    border: 1px solid purple;
+}*/
